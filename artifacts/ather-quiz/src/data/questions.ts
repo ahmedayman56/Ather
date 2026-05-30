@@ -1,0 +1,66 @@
+export interface Question {
+  question: string;
+  options: string[];
+  answer: string;
+}
+
+export const LECTURE_1_QUESTIONS: Question[] = [
+  { question: "Nursing research provides evidence used to support nursing practices.", options: ["True", "False"], answer: "True" },
+  { question: "The prefix Re in Research means to finish or to stop.", options: ["True", "False"], answer: "False" },
+  { question: "Research is a systematic work undertaken to decrease the stock of knowledge.", options: ["True", "False"], answer: "False" },
+  { question: "Information is processed data that has a specific meaning and purpose.", options: ["True", "False"], answer: "True" },
+  { question: "The term Data is derived from the Latin word Datum.", options: ["True", "False"], answer: "True" },
+  { question: "A variable is a characteristic that never changes during a study.", options: ["True", "False"], answer: "False" },
+  { question: "In a cause-and-effect relationship, the Independent Variable is the presumed cause.", options: ["True", "False"], answer: "True" },
+  { question: "Correlation analysis indicates the impact of one variable on another for prediction.", options: ["True", "False"], answer: "False" },
+  { question: "A Pilot Study is a small-scale trial run conducted before the main study.", options: ["True", "False"], answer: "True" },
+  { question: "Clinical research can only occur in hospital settings.", options: ["True", "False"], answer: "False" },
+  { question: "One of the goals of nursing research is to save costs and improve efficiency.", options: ["True", "False"], answer: "True" },
+  { question: "Bias is a feeling or influence that supports objectivity in research.", options: ["True", "False"], answer: "False" },
+  { question: "High-quality research should be replicable by other researchers.", options: ["True", "False"], answer: "True" },
+  { question: "The Assessment phase in the nursing process corresponds to Data Analysis in research.", options: ["True", "False"], answer: "False" },
+  { question: "Health systems research examines the quality and costs of health care services.", options: ["True", "False"], answer: "True" },
+  { question: "Datum literally means something that is given.", options: ["True", "False"], answer: "True" },
+  { question: "In the study Smoking causes cancer, smoking is the Dependent Variable.", options: ["True", "False"], answer: "False" },
+  { question: "Nursing research priorities include the promotion of healthy lifestyles.", options: ["True", "False"], answer: "True" },
+  { question: "Quantitative data can be descriptive in nature.", options: ["True", "False"], answer: "True" },
+  { question: "A good researcher should be Resourceful and Honest.", options: ["True", "False"], answer: "True" },
+  { question: "The word Research is divided into Re and Search. Search means:", options: ["To ignore the evidence", "To look for something or examine it closely", "To finish the work quickly", "To accept facts without testing"], answer: "To look for something or examine it closely" },
+  { question: "The raw material from which information is derived is called:", options: ["Statistics", "Knowledge", "Data", "Rationale"], answer: "Data" },
+  { question: "Which variable is the outcome that the researcher wants to explain or predict?", options: ["Independent Variable", "Extraneous Variable", "Dependent Variable", "Constant Variable"], answer: "Dependent Variable" },
+  { question: "The first step in the Research Process is:", options: ["Data collection", "Identifying the problem/phenomena", "Review of literature", "Data analysis"], answer: "Identifying the problem/phenomena" },
+  { question: "Criteria in research is defined as:", options: ["The final conclusion of the study", "A statement of rules used to identify study subjects", "The mathematical average of data", "A biased opinion"], answer: "A statement of rules used to identify study subjects" },
+  { question: "What is the primary focus of Nursing Education Research?", options: ["Hospital administration costs", "How students learn the professional practice", "Biological investigation of diseases", "Surgical techniques"], answer: "How students learn the professional practice" },
+  { question: "Regression analysis is used to:", options: ["Show only a linear relationship between X and Y", "Make predictions based on the impact of variables", "Collect raw data from patients", "Define the nursing process"], answer: "Make predictions based on the impact of variables" },
+  { question: "In the comparison between processes, Diagnosis in nursing corresponds to:", options: ["Study design", "Research purpose", "Literature review", "Recommendation"], answer: "Research purpose" },
+  { question: "Which of the following is NOT a characteristic of a good researcher (RESEARCHER acronym)?", options: ["Economical", "Active", "Subjective", "Religious"], answer: "Subjective" },
+  { question: "Empirical evidence is evidence rooted in:", options: ["Personal opinions", "Objective reality/observation", "Unproven theories", "Traditions"], answer: "Objective reality/observation" },
+  { question: "The Review of Literature is important because:", options: ["It provides a basis for the current study", "It is the final step of the research", "It replaces data collection", "It proves the researcher is biased"], answer: "It provides a basis for the current study" },
+  { question: "Evidence-Based Practice (EBP) links:", options: ["Nursing care with research findings", "Administration with accounting", "Students with social media", "Doctors with pharmacists"], answer: "Nursing care with research findings" },
+  { question: "A researcher who handles challenges effectively is described as:", options: ["Efficient", "Resourceful", "Scientific", "Logical"], answer: "Resourceful" },
+  { question: "Generalizability refers to:", options: ["Keeping the results secret", "Applying findings to other settings or populations", "Changing the data to fit the hypothesis", "Using only one subject in a study"], answer: "Applying findings to other settings or populations" },
+  { question: "Nursing research was developed since the time of:", options: ["Albert Einstein", "Florence Nightingale", "Marie Curie", "Alexander Fleming"], answer: "Florence Nightingale" },
+  { question: "Data that has been processed and given meaning is:", options: ["Raw facts", "Information", "Variables", "Hypotheses"], answer: "Information" },
+  { question: "Correlation is symmetric, meaning:", options: ["rXY = rYX", "It proves causation", "It is used for prediction", "It ignores the relationship between variables"], answer: "rXY = rYX" },
+  { question: "The final step in the research process involves:", options: ["Identifying the problem", "Designing the study", "Recommendations and implications", "Pilot testing"], answer: "Recommendations and implications" },
+  { question: "Which scope of research examines the appropriateness of clinical practice?", options: ["Nursing Education", "Health systems and outcomes", "Historical research", "Personal research"], answer: "Health systems and outcomes" },
+  { question: "Systematic research means it follows:", options: ["A random order", "A logical and orderly sequence", "Only the researcher's intuition", "No specific steps"], answer: "A logical and orderly sequence" },
+  { question: "In the nursing process, Evaluation corresponds to what in research?", options: ["Identifying phenomena", "Literature review", "Analysis of results", "Data collection"], answer: "Analysis of results" },
+  { question: "A Constant is a characteristic that:", options: ["Changes for every subject", "Does not vary in a study", "Is always the dependent variable", "Is a type of bias"], answer: "Does not vary in a study" },
+  { question: "The goal of Scientific characteristic in a researcher is:", options: ["To be famous", "To follow empirical and systematic methods", "To spend a lot of money", "To work alone"], answer: "To follow empirical and systematic methods" },
+  { question: "Which is a Latin origin for Information?", options: ["Datum", "Informatio", "Researched", "Educatio"], answer: "Informatio" },
+  { question: "Re-search literally implies:", options: ["Looking for the first time", "Looking once again or fresh", "Stopping the search", "Ignoring the topic"], answer: "Looking once again or fresh" },
+  { question: "If a researcher finds a relationship between Nursing Hours and Patient Satisfaction, but cannot predict the satisfaction level based on hours, the researcher has performed:", options: ["Regression", "Correlation only", "Bias", "Data collection only"], answer: "Correlation only" },
+  { question: "A study title is The effect of sleep deprivation on the clinical performance of interns. What is the Independent Variable?", options: ["Clinical performance", "Nursing interns", "Sleep deprivation", "The hospital setting"], answer: "Sleep deprivation" },
+  { question: "Why is the Research Process considered Systematic?", options: ["Because it is done by a computer", "Because it follows a set of logical, ordered steps to minimize error", "Because it never changes its results", "Because it is only for scientists"], answer: "Because it follows a set of logical, ordered steps to minimize error" },
+  { question: "If a researcher uses a Pilot Study and finds the tools are difficult for participants, what should be the next logical step?", options: ["Cancel the whole research", "Proceed with the main study anyway", "Modify the tools/procedures before the main study", "Publish the results of the pilot study immediately"], answer: "Modify the tools/procedures before the main study" },
+  { question: "How does Evidence-Based Practice (EBP) differ from traditional nursing practice?", options: ["EBP relies on research evidence rather than just tradition or intuition", "EBP does not involve patients", "Traditional practice is more scientific", "There is no difference"], answer: "EBP relies on research evidence rather than just tradition or intuition" }
+];
+
+export const LECTURES = [
+  { id: 1, title: "Lecture 1", topic: "Research Basics", questions: LECTURE_1_QUESTIONS },
+  { id: 2, title: "Lecture 2", topic: "Nursing Research", questions: [] },
+  { id: 3, title: "Lecture 3", topic: "Variables", questions: [] },
+  { id: 4, title: "Lecture 4", topic: "Data Collection", questions: [] },
+  { id: 5, title: "Lecture 5", topic: "Ethics in Research", questions: [] },
+];

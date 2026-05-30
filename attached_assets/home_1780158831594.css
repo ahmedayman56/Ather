@@ -1,0 +1,74 @@
+:root{
+  --blue:#4fc3f7;
+  --blue-dark:#0288d1;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:system-ui,sans-serif;
+  background:#f5fbff;
+  min-height:100vh;
+  padding:20px;
+}
+
+header{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+header h1{
+  color:var(--blue-dark);
+  margin-bottom:8px;
+}
+
+header p{
+  color:#666;
+}
+
+.lectures{
+  max-width:900px;
+  margin:auto;
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:16px;
+}
+
+.card{
+  text-decoration:none;
+  color:#222;
+
+  background:white;
+  border-radius:18px;
+
+  padding:22px;
+
+  box-shadow:
+    0 0 0 1px rgba(79,195,247,.2),
+    0 8px 25px rgba(79,195,247,.15);
+
+  transition:.25s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+
+  box-shadow:
+    0 0 0 1px rgba(79,195,247,.4),
+    0 12px 30px rgba(79,195,247,.3);
+}
+
+.card h3{
+  color:var(--blue-dark);
+  margin-bottom:8px;
+}
+
+.card span{
+  color:#666;
+  font-size:14px;
+}
