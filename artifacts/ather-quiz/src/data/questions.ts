@@ -58,9 +58,17 @@ export const LECTURE_1_QUESTIONS: Question[] = [
 ];
 
 export const LECTURES = [
-  { id: 1, title: "Lecture 1", topic: "Research Basics", questions: LECTURE_1_QUESTIONS },
-  { id: 2, title: "Lecture 2", topic: "Nursing Research", questions: [] },
-  { id: 3, title: "Lecture 3", topic: "Variables", questions: [] },
-  { id: 4, title: "Lecture 4", topic: "Data Collection", questions: [] },
-  { id: 5, title: "Lecture 5", topic: "Ethics in Research", questions: [] },
+  { id: 1,  title: "Lecture 1",  topic: "Introduction to Research",                        questions: LECTURE_1_QUESTIONS },
+  { id: 2,  title: "Lecture 2",  topic: "Research Protocol",                               questions: [] },
+  { id: 3,  title: "Lecture 3",  topic: "Research Problem",                                questions: [] },
+  { id: 4,  title: "Lecture 4",  topic: "The Research Aims",                               questions: [] },
+  { id: 5,  title: "Lecture 5",  topic: "Literature Review",                               questions: [] },
+  { id: 6,  title: "Lecture 6",  topic: "Research Designs",                                questions: [] },
+  { id: 7,  title: "Lecture 7",  topic: "Sampling",                                        questions: [] },
+  { id: 9,  title: "Lecture 9",  topic: "Reliability and Validity",                        questions: [] },
+  { id: 10, title: "Lecture 10", topic: "Nursing Research Ethics",                         questions: [] },
+  { id: 11, title: "Lecture 11", topic: "Components of Thesis",                            questions: [] },
+  { id: 12, title: "Lecture 12", topic: "Components of Paper",                             questions: [] },
+  { id: 13, title: "Lecture 13", topic: "Components between Protocol, Thesis and Paper",   questions: [] },
+  { id: 14, title: "Lecture 14", topic: "Research Critique",                               questions: [] },
 ];
