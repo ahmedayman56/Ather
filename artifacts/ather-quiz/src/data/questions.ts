@@ -428,6 +428,34 @@ export const LECTURE_8_QUESTIONS: Question[] = [
   { question: "In a study involving unconscious patients who cannot give informed consent, the nurse's vital role is to:", options: ["Proceed with the research without consent.", "Protect the individual and respect their right to autonomy through legal safeguards.", "Only include them if the researcher is famous.", "Change the research results to favor the patient."], answer: "Protect the individual and respect their right to autonomy through legal safeguards." },
 ];
 
+export const LECTURE_9_QUESTIONS: Question[] = [
+  { question: "Which of the following is unique to a Thesis compared to a Research Paper?", options: ["Introduction", "Arabic summary and cover", "Methodology", "References"], answer: "Arabic summary and cover" },
+  { question: "In a thesis, the \"Sampling\" section should include:", options: ["Type, Size, and Technique", "Results and Discussion", "Title and Abstract", "Recommendations"], answer: "Type, Size, and Technique" },
+  { question: "Where are the \"Research Questions or Hypothesis\" typically located?", options: ["After the Methodology", "Before the Aim of the Study", "After the Aim of the Study", "In the Appendices"], answer: "After the Aim of the Study" },
+  { question: "Which component includes the \"Protocol & Tools\"?", options: ["Results", "Methodology", "Appendices", "Discussion"], answer: "Appendices" },
+  { question: "The \"Pilot Study\" is a sub-component of:", options: ["Introduction", "Methodology", "Results", "Conclusion"], answer: "Methodology" },
+  { question: "Which of these is NOT listed as a component of a Research Paper?", options: ["Acknowledgement", "Arabic Cover", "Discussion", "Ethical consideration"], answer: "Arabic Cover" },
+  { question: "The \"Significance of the study\" is often paired with:", options: ["Methodology", "Results", "Introduction", "Summary"], answer: "Introduction" },
+  { question: "\"Content validity & Reliability\" refers to:", options: ["The accuracy of the results", "The quality of the data collection tools", "The ethical approval", "The sampling size"], answer: "The quality of the data collection tools" },
+  { question: "In the methodology, \"Research Setting\" refers to:", options: ["The time of the study", "The place where the study is conducted", "The type of participants", "The statistical methods used"], answer: "The place where the study is conducted" },
+  { question: "The \"List of abbreviations\" is found in:", options: ["The Research Paper", "The Thesis", "Both A and B", "Neither A nor B"], answer: "The Thesis" },
+  { question: "The Arabic summary in a thesis is a direct translation of the English summary.", options: ["True", "False"], answer: "True" },
+  { question: "A research paper must always include a list of tables and figures at the beginning.", options: ["True", "False"], answer: "False" },
+  { question: "\"Ethical consideration\" is a part of the Methodology section.", options: ["True", "False"], answer: "True" },
+  { question: "The \"Title\" is the first component of both a thesis and a paper.", options: ["True", "False"], answer: "True" },
+  { question: "The \"Operational design\" is part of the Results section.", options: ["True", "False"], answer: "False" },
+  { question: "Appendices are where the researcher puts the study tools and protocol.", options: ["True", "False"], answer: "True" },
+  { question: "The \"Abstract\" comes after the \"Discussion\" in a research paper.", options: ["True", "False"], answer: "False" },
+  { question: "Criteria of inclusion and exclusion are parts of the Sampling sub-section.", options: ["True", "False"], answer: "True" },
+  { question: "The \"Discussion\" section explains the \"Results\".", options: ["True", "False"], answer: "True" },
+  { question: "A thesis and a paper have identical components in the same order.", options: ["True", "False"], answer: "False" },
+  { question: "If a researcher finds that the \"Reliability\" of their tool is low, which section of the methodology should they re-evaluate first?", options: ["Research Setting", "Tools of data collection", "Sample Size", "Arabic Summary"], answer: "Tools of data collection" },
+  { question: "Why is the \"Pilot Study\" essential before the \"Field work\"?", options: ["To finalize the references", "To test the feasibility and tools on a small scale", "To write the recommendations", "To translate the Arabic cover"], answer: "To test the feasibility and tools on a small scale" },
+  { question: "What is the main difference between \"Results\" and \"Discussion\"?", options: ["Results are data; Discussion is the interpretation and comparison", "Results are opinions; Discussion is facts", "Results are in the beginning; Discussion is in the appendix", "There is no difference"], answer: "Results are data; Discussion is the interpretation and comparison" },
+  { question: "Which component would be most affected if the \"Limitations of the study\" were not addressed?", options: ["The Title", "The Validity and Generalizability of the study", "The List of abbreviations", "The Arabic cover"], answer: "The Validity and Generalizability of the study" },
+  { question: "In the topic \"Effect of Olive Oil on Nipple Trauma,\" where would the researcher explain the biological properties of Olive Oil?", options: ["Methodology", "Results", "Introduction / Significance", "Conclusion"], answer: "Introduction / Significance" },
+];
+
 export const LECTURES = [
   { id: 1,  title: "Lecture 1",  topic: "Introduction to Research",                        questions: LECTURE_1_QUESTIONS },
   { id: 2,  title: "Lecture 2",  topic: "Research Protocol",                               questions: LECTURE_2_QUESTIONS },
@@ -437,7 +465,7 @@ export const LECTURES = [
   { id: 6,  title: "Lecture 6",  topic: "Research Designs",                                questions: LECTURE_6_QUESTIONS },
   { id: 7,  title: "Lecture 7",  topic: "Sampling",                                        questions: LECTURE_7_QUESTIONS },
   { id: 8,  title: "Lecture 8",  topic: "Nursing Research Ethics",                         questions: LECTURE_8_QUESTIONS },
-  { id: 9,  title: "Lecture 9",  topic: "Reliability and Validity",                        questions: [] },
+  { id: 9,  title: "Lecture 9",  topic: "Components of Thesis & Paper",                    questions: LECTURE_9_QUESTIONS },
   { id: 10, title: "Lecture 10", topic: "Nursing Research Ethics",                         questions: [] },
   { id: 11, title: "Lecture 11", topic: "Components of Thesis",                            questions: [] },
   { id: 12, title: "Lecture 12", topic: "Components of Paper",                             questions: [] },
