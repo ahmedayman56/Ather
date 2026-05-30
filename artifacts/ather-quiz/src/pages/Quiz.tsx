@@ -191,7 +191,7 @@ export default function Quiz() {
                 const isCorrectOption = option === currentQuestion.answer;
                 
                 let btnVariant: "default" | "outline" | "secondary" | "ghost" = "outline";
-                let btnClass = "h-auto py-4 px-6 justify-start text-left text-base font-normal whitespace-normal";
+                let btnClass = "w-full min-h-[64px] h-auto py-4 px-6 justify-start text-left text-base font-normal whitespace-normal";
 
                 if (hasAnswered) {
                   if (isCorrectOption) {
