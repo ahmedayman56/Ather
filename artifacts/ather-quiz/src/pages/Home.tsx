@@ -30,7 +30,7 @@ export default function Home() {
           <div className="bg-primary text-primary-foreground p-2 rounded-lg">
             <BookOpen className="w-5 h-5" />
           </div>
-          <h1 className="text-xl font-bold tracking-tight">ATHER</h1>
+          <h1 className="text-xl font-bold tracking-tight">آثــــر | ATHER 🫆</h1>
         </div>
         <Button variant="ghost" size="icon" onClick={toggleTheme} data-testid="button-theme-toggle">
           {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}

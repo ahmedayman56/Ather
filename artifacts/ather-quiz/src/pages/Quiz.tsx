@@ -107,7 +107,7 @@ export default function Quiz() {
             </Button>
           </Link>
           <div>
-            <h1 className="font-bold hidden sm:block">ATHER</h1>
+            <h1 className="font-bold hidden sm:block">آثــــر | ATHER 🫆</h1>
             <div className="text-xs text-muted-foreground font-medium">{lecture.title}</div>
           </div>
         </div>
