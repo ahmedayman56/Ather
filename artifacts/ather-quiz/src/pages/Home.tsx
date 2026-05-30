@@ -39,10 +39,7 @@ export default function Home() {
 
       <main className="max-w-4xl mx-auto px-6 py-12">
         <div className="mb-10 text-center">
-          <h2 className="text-3xl font-bold mb-3 tracking-tight">Practice Lectures</h2>
-          <p className="text-muted-foreground max-w-lg mx-auto">
-            Test your knowledge before the exam. Fast, focused, and no-nonsense.
-          </p>
+          <h2 className="text-3xl font-bold mb-3 tracking-tight">صلــي علــى النبــــي</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
