@@ -520,7 +520,7 @@ export const LECTURES = [
   { id: 8,  title: "Lecture 8",  topic: "Reliability and Validity",                          questions: LECTURE_7_QUESTIONS },
   { id: 9,  title: "Lecture 9",  topic: "Nursing Research Ethics",                           questions: LECTURE_8_QUESTIONS },
   { id: 10, title: "Lecture 10", topic: "Components of Thesis",                              questions: LECTURE_9_QUESTIONS },
-  { id: 11, title: "Lecture 11", topic: "Components of Paper",                               questions: LECTURE_10_QUESTIONS },
-  { id: 12, title: "Lecture 12", topic: "Components between Protocol, Thesis and Paper",     questions: [] },
+  { id: 11, title: "Lecture 11", topic: "Components of Paper",                               questions: [] },
+  { id: 12, title: "Lecture 12", topic: "Components between Protocol, Thesis and Paper",     questions: LECTURE_10_QUESTIONS },
   { id: 13, title: "Lecture 13", topic: "Research Critique",                                 questions: [] },
 ];
